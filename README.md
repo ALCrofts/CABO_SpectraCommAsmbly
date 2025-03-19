@@ -7,7 +7,7 @@ This repository is meant to support the manuscript:
 This study is apart of the larger Canadian Airborne Biodiversity Observatory (http://caboscience.org/) initiative.
 
 # Components
-The repository contains the R script, separated into nine sections.
+The repository contains nine R scripts.
 01. Define plots (01_Define_plots)
 02. Define minimum number of spectral points (02_Define_min_spec_points)
 03. Extract imaging spectroscopy data (03_Extract_HSI)
@@ -22,4 +22,4 @@ The repository contains the R script, separated into nine sections.
 This repository is meant to be a reasonably well-documented record of the analyses carried out in the manuscript detailed above. 
 
 # Associated data products
-At the time of publication, data will be made publically available via Dryad repository. 
+At the time of publication, plot-level data will be made publically available via Dryad repository. The plot-level data was generated using R scripts 1-5 and can be used to replicate analyses conducted in R scripts 6-9.

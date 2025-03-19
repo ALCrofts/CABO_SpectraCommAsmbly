@@ -7,7 +7,7 @@ This repository is meant to support the manuscript:
 This study is apart of the larger Canadian Airborne Biodiversity Observatory (http://caboscience.org/) initiative.
 
 # Components
-The repository contains an R script composed of nine sections:
+The repository contains the R script, separated into nine sections.
 01. Define plots (01_Define_plots)
 02. Define minimum number of spectral points (02_Define_min_spec_points)
 03. Extract imaging spectroscopy data (03_Extract_HSI)

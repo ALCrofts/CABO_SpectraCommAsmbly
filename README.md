@@ -8,7 +8,7 @@ This study is apart of the larger Canadian Airborne Biodiversity Observatory (ht
 
 # Components
 The repository contains nine R scripts.
-01. Define plots (01_Define_plots)
+01. Define potential plots (01_Define_plots)
 02. Define minimum number of spectral points (02_Define_min_spec_points)
 03. Extract imaging spectroscopy data (03_Extract_HSI)
 04. Calculate spectral composition (04_Calc_spec_comp)

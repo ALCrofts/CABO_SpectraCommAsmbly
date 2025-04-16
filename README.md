@@ -1,4 +1,4 @@
-# CABO_SpectraCommAsmbly
+# SpectraCommAsmbly
 *Examing scale dependence of community assembly processes in Québec's northern temperate forest using imaging spectroscopy data.*
 
 This repository is meant to support the manuscript: 

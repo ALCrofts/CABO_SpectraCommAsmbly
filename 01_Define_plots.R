@@ -13,13 +13,13 @@ library(ggplot2)
 library(ggspatial)
 
 # 1.1_Define preliminary plots   ---------------------------------------------------------------------
-## Randomly place plots of the largest spatial grain across Parc national du Mont-Mégantic (PNMM), where plots can never overlap. 
+## Randomly place plots of the largest spatial grain across Parc national du Mont-MÃ©gantic (PNMM), where plots can never overlap. 
 
 # Load PNMM shapefiles (including, Samuel-Brisson ecologic reserve)
 Meg_boundary <- st_read("Data/Limits/fond_parc.shp") #PCMM boundaries
 Res_boundary <- st_read("Data/Limits/fond_reserve.shp") #Reserve ecologique Samuel-Brisson boundaries
 
-# Merge park boundry and reserve boundry spatial features
+# Merge park boundry and reserve boundary spatial features
 Meg_boundary<- st_union(Meg_boundary, Res_boundary) %>%
   dplyr::select('geometry') %>%
   st_set_crs("EPSG:32187") %>%
